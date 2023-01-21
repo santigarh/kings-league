@@ -4,7 +4,7 @@ Proyecto replica de la web y api kings legue por motivos didácticos
 
 # Api
 
-Endpoints disponibles
+Endpoints disponibles:
 
 GET `/leaderboard`: Recupera la tabla con las estadísticas.
 GET `/teams`: Recupera los equipos de la liga.
