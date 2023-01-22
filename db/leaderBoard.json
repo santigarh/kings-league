@@ -10,10 +10,9 @@
       "color": "#1932e0",
       "id": "saiyans-fc",
       "name": "Saiyans FC",
-      "image": "https://kingsleague.dev/teams/logos/saiyans-fc.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/saiyans-fc-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/saiyans-fc/",
-      "presidentId": "thegrefg",
       "channel": "https://twitch.tv/thegrefg",
       "socialNetworks": [
         "https://www.twitch.tv/thegrefg"
@@ -189,6 +188,12 @@
       "coachInfo": {
         "name": "Daniel Romo",
         "image": "daniel-romo.webp"
+      },
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/thegrefg.png",
+        "teamId": "saiyans-fc"
       }
     }
   },
@@ -203,10 +208,9 @@
       "id": "1k",
       "color": "#6f68f4",
       "name": "1K FC",
-      "image": "https://kingsleague.dev/teams/logos/1k.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/1k-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k-inverse.svg",
       "url": "https://kingsleague.pro/team/1k/",
-      "presidentId": "iker-casillas",
       "channel": "https://www.youtube.com/@IkerCasillas",
       "socialNetworks": [
         "https://www.instagram.com/1kfutbolclub/?hl=es",
@@ -389,6 +393,12 @@
       "coachInfo": {
         "name": "Julio García Mera",
         "image": "julio-garca-mera.webp"
+      },
+      "president": {
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -403,10 +413,9 @@
       "color": "#101920",
       "id": "kunisports",
       "name": "Kunisports",
-      "image": "https://kingsleague.dev/teams/logos/kunisports.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/kunisports-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports-inverse.svg",
       "url": "https://kingsleague.pro/team/kunisports/",
-      "presidentId": "kun-aguero",
       "channel": "https://twitch.tv/slakun10",
       "socialNetworks": [
         "https://www.twitch.tv/slakun10"
@@ -582,6 +591,12 @@
       "coachInfo": {
         "name": "Martín Posse",
         "image": "martn-posse.webp"
+      },
+      "president": {
+        "id": "kun-aguero",
+        "name": "Kun Agüero",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/kun-aguero.png",
+        "teamId": "kunisports"
       }
     }
   },
@@ -596,10 +611,9 @@
       "color": "#31585a",
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
-      "image": "https://kingsleague.dev/teams/logos/los-troncos.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/los-troncos-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos-inverse.svg",
       "url": "https://kingsleague.pro/team/los-troncos-fc/",
-      "presidentId": "perxitaa",
       "channel": "https://twitch.tv/perxitaa",
       "socialNetworks": [
         "https://www.twitch.tv/perxitaa",
@@ -778,6 +792,12 @@
       "coachInfo": {
         "name": "Pol Font",
         "image": "pol-font.webp"
+      },
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/perxitaa.png",
+        "teamId": "los-troncos-fc"
       }
     }
   },
@@ -792,10 +812,9 @@
       "color": "#7b7b7b",
       "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
-      "image": "https://kingsleague.dev/teams/logos/ultimate-mostoles.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/ultimate-mostoles-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
       "url": "https://kingsleague.pro/team/ultimate-mostoles/",
-      "presidentId": "djmariio",
       "channel": "https://youtube.com/DjMaRiiO",
       "socialNetworks": [
         "https://m.youtube.com/user/DjMaRiiO/videos"
@@ -971,6 +990,12 @@
       "coachInfo": {
         "name": "Nacho Castro",
         "image": "nacho-castro.webp"
+      },
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/djmariio.png",
+        "teamId": "ultimate-mostoles"
       }
     }
   },
@@ -985,10 +1010,9 @@
       "color": "#d91f5d",
       "id": "porcinos-fc",
       "name": "Porcinos FC",
-      "image": "https://kingsleague.dev/teams/logos/porcinos-fc.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/porcinos-fc-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/porcinos-fc/",
-      "presidentId": "ibai-llanos",
       "channel": "https://twitch.tv/ibai",
       "socialNetworks": [
         "https://www.twitch.tv/ibai",
@@ -1165,6 +1189,12 @@
       "coachInfo": {
         "name": "Juvenal Edjogo-Owono",
         "image": "juvenal-edjogoowono.webp"
+      },
+      "president": {
+        "id": "ibai-llanos",
+        "name": "Ibai Llanos",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/ibai-llanos.png",
+        "teamId": "porcinos-fc"
       }
     }
   },
@@ -1179,10 +1209,9 @@
       "color": "#49b2ad",
       "id": "el-barrio",
       "name": "El Barrio",
-      "image": "https://kingsleague.dev/teams/logos/el-barrio.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/el-barrio-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio-inverse.svg",
       "url": "https://kingsleague.pro/team/el-barrio/",
-      "presidentId": "adri-contreras",
       "channel": "https://twitch.tv/1k",
       "socialNetworks": [
         "https://www.instagram.com/elbarrioklk/?hl=es",
@@ -1365,6 +1394,12 @@
       "coachInfo": {
         "name": "Juan Arroita",
         "image": "juan-arroita.webp"
+      },
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/adri-contreras.png",
+        "teamId": "el-barrio"
       }
     }
   },
@@ -1379,10 +1414,9 @@
       "color": "#f6ab34",
       "id": "rayo-barcelona",
       "name": "Rayo de Barcelona",
-      "image": "https://kingsleague.dev/teams/logos/rayo-barcelona.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/rayo-barcelona-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona-inverse.svg",
       "url": "https://kingsleague.pro/team/rayo-barcelona/",
-      "presidentId": "spursito",
       "channel": "https://twitch.tv/spursito",
       "socialNetworks": [
         "https://www.twitch.tv/spursito",
@@ -1563,6 +1597,12 @@
       "coachInfo": {
         "name": "JuanluDBZ",
         "image": "juanludbz.webp"
+      },
+      "president": {
+        "id": "spursito",
+        "name": "Spursito",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/spursito.png",
+        "teamId": "rayo-barcelona"
       }
     }
   },
@@ -1577,10 +1617,9 @@
       "id": "aniquiladores-fc",
       "color": "#ea4163",
       "name": "Aniquiladores FC",
-      "image": "https://kingsleague.dev/teams/logos/aniquiladores.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/aniquiladores-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores-inverse.svg",
       "url": "https://kingsleague.pro/team/aniquiladores-fc/",
-      "presidentId": "juan-guarnizo",
       "channel": "https://twitch.tv/juansguarnizo",
       "socialNetworks": [
         "https://www.twitch.tv/juansguarnizo"
@@ -1756,6 +1795,12 @@
       "coachInfo": {
         "name": "Sergio Verdirame",
         "image": "sergio-verdirame.webp"
+      },
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": "aniquiladores-fc"
       }
     }
   },
@@ -1770,10 +1815,9 @@
       "color": "#979797",
       "id": "xbuyer-team",
       "name": "XBUYER TEAM",
-      "image": "https://kingsleague.dev/teams/logos/xbuyer.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/xbuyer-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/xbuyer.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/xbuyer-inverse.svg",
       "url": "https://kingsleague.pro/team/xbuyer-team/",
-      "presidentId": "hnos-buyer",
       "channel": "https://www.youtube.com/xbuyer",
       "socialNetworks": [
         "https://www.youtube.com/xbuyer"
@@ -1949,6 +1993,12 @@
       "coachInfo": {
         "name": "Victor González",
         "image": "victor-gonzlez.webp"
+      },
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": "xbuyer-team"
       }
     }
   },
@@ -1963,10 +2013,9 @@
       "id": "jijantes-fc",
       "color": "#d4293d",
       "name": "Jijantes FC",
-      "image": "https://kingsleague.dev/teams/logos/jijantes.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/jijantes-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes-inverse.svg",
       "url": "https://kingsleague.pro/team/jijantes-fc/",
-      "presidentId": "gerard-romero",
       "channel": "https://twitch.tv/gerardromero",
       "socialNetworks": [
         "https://www.twitch.tv/gerardromero",
@@ -2145,6 +2194,12 @@
       "coachInfo": {
         "name": "Marc Carmona",
         "image": "marc-carmona.webp"
+      },
+      "president": {
+        "id": "gerard-romero",
+        "name": "Gerard Romero",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/gerard-romero.png",
+        "teamId": "jijantes-fc"
       }
     }
   },
@@ -2159,10 +2214,9 @@
       "color": "#fff68d",
       "id": "pio-fc",
       "name": "PIO FC",
-      "image": "https://kingsleague.dev/teams/logos/pio.svg",
-      "imageWhite": "https://kingsleague.dev/teams/logos/pio-inverse.svg",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg",
+      "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio-inverse.svg",
       "url": "https://kingsleague.pro/team/pio-fc/",
-      "presidentId": "rivers",
       "channel": "https://twitch.tv/rivers_gg",
       "socialNetworks": [
         "https://www.twitch.tv/rivers_gg",
@@ -2341,6 +2395,12 @@
       "coachInfo": {
         "name": "Gerardo Torrado",
         "image": "gerardo-torrado.webp"
+      },
+      "president": {
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/rivers.png",
+        "teamId": "pio-fc"
       }
     }
   }

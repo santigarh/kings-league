@@ -1,10 +1,6 @@
 import fetch from 'node-fetch'
 import * as cheerio from 'cheerio'
-import { writeFile, readFile } from 'node:fs/promises'
-import path from 'node:path'
-
-const DB_PATH = path.join(process.cwd(), './db/')
-const TEAMS = await readFile(`${DB_PATH}/teams.json`, 'utf-8').then(JSON.parse)
+import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js'
 
 const URLS = {
   leaderBoard: 'https://kingsleague.pro/estadisticas/clasificacion/',
@@ -31,7 +27,16 @@ const getLeaderBoard = async () => {
     redCards: { selector: '.fs-table-text_9', typeOf: 'number' },
   }
 
-  const getTeamFromName = ({ name }) => TEAMS.find((team) => team.name === name)
+  const getTeamFromName = ({ name }) => {
+    const { presidentId, ...restOfTeam } = TEAMS.find(
+      (team) => team.name === name
+    )
+    const president = PRESIDENTS.find(
+      (president) => president.id === presidentId
+    )
+
+    return { ...restOfTeam, president }
+  }
 
   const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
 
@@ -56,8 +61,4 @@ const getLeaderBoard = async () => {
 
 const leaderBoard = await getLeaderBoard()
 
-await writeFile(
-  `${DB_PATH}/leaderboard.json`,
-  JSON.stringify(leaderBoard, null, 2),
-  'utf-8'
-)
+await writeDBFile('leaderboard', leaderBoard)
