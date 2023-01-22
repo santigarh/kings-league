@@ -1,0 +1,32 @@
+name: Scrapping Web Kings League
+
+on:
+  workflow_dispatch:
+  
+  repository_dispatch:
+    types:
+      - webhook
+  
+  schedule:
+    - cron : "0 * * * 0"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm ci
+      - run: npm test
+      - run: |
+          node scraping/leaderboard.js
+          git config user.name bot-scrapping
+          git add -A
+          git commit -m "[bot] Update Kings-League Database"
+          git push origin main
+
+
+ 
