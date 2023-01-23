@@ -24,7 +24,8 @@ jobs:
       - run: |
           node scraping/leaderboard.js
           git config user.name bot-kings-legue
-          git commit -am "[bot] Update Kings-League Database"
+          git add -A
+          git commit -m "[bot] Update Kings-League Database"
           git push origin main
 
 
