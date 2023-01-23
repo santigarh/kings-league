@@ -25,6 +25,8 @@ jobs:
           run_install: true
       - run: |
           node scraping/leaderboard.js
+          git config --global user.email "santigarh.77@gmail.com"
+          git config --global user.name "bot-cronJob"
           git add -A
           git commit -m "[bot] Update Kings-League Database"
           git push origin main
