@@ -60,4 +60,4 @@ const getLeaderBoard = async () => {
 
 const leaderBoard = await getLeaderBoard()
 
-await writeDBFile('leaderboard', leaderBoard)
+await writeDBFile('leaderBoard', leaderBoard)
