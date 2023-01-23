@@ -14,7 +14,7 @@ app.get('/', (ctx) => {
     },
     {
       endpoint: '/presidents',
-      description: 'Return the presidents',
+      description: 'Return the Presidents',
     },
     {
       endpoint: '/teams',
