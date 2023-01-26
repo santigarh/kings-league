@@ -13,11 +13,34 @@ const teams = await response.json()
       {
         teams.map(({ id, image, name }) => (
           <a href={`/team/${id}`}>
-            <img src={image} alt={`Escudo del equipo ${name}`} />
+            <img
+              src={image}
+              class="aspect-square w-16"
+              alt={`Escudo del equipo ${name}`}
+            />
           </a>
         ))
       }
     </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="/equipos">Equipos</a>
+        </li>
+        <li>
+          <a href="/calendario">Calendario</a>
+        </li>
+        <li>
+          <a href="/estadisticas">Estadistícas</a>
+        </li>
+        <li>
+          <a href="/contacto">Contacto</a>
+        </li>
+        <li>
+          <a href="/reglamento">Reglamento</a>
+        </li>
+      </ul>
+    </nav>
     <main>
       <h1 class="text-6xl">HOME</h1>
       <p class="text-red-500">Welcome</p>
