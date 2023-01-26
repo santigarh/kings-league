@@ -14,9 +14,7 @@
       "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/saiyans-fc/",
       "channel": "https://twitch.tv/thegrefg",
-      "socialNetworks": [
-        "https://www.twitch.tv/thegrefg"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/thegrefg"],
       "players": [
         {
           "id": "saiyans-fc-16",
@@ -212,9 +210,7 @@
       "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
       "url": "https://kingsleague.pro/team/ultimate-mostoles/",
       "channel": "https://youtube.com/DjMaRiiO",
-      "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
-      ],
+      "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
       "players": [
         {
           "id": "ultimate-mostoles-22",
@@ -814,9 +810,7 @@
       "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports-inverse.svg",
       "url": "https://kingsleague.pro/team/kunisports/",
       "channel": "https://twitch.tv/slakun10",
-      "socialNetworks": [
-        "https://www.twitch.tv/slakun10"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/slakun10"],
       "players": [
         {
           "id": "kunisports-23",
@@ -1217,9 +1211,7 @@
       "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores-inverse.svg",
       "url": "https://kingsleague.pro/team/aniquiladores-fc/",
       "channel": "https://twitch.tv/juansguarnizo",
-      "socialNetworks": [
-        "https://www.twitch.tv/juansguarnizo"
-      ],
+      "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
       "players": [
         {
           "id": "aniquiladores-fc-14",
@@ -1415,9 +1407,7 @@
       "imageWhite": "https://kinsgleague.santigarh-77.workers.dev/static/logos/xbuyer-inverse.svg",
       "url": "https://kingsleague.pro/team/xbuyer-team/",
       "channel": "https://www.youtube.com/xbuyer",
-      "socialNetworks": [
-        "https://www.youtube.com/xbuyer"
-      ],
+      "socialNetworks": ["https://www.youtube.com/xbuyer"],
       "players": [
         {
           "id": "xbuyer-team-10",

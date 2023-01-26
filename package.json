@@ -37,7 +37,9 @@
       "plugin:astro/recommended"
     ],
     "rules": {
-      "space-before-function-paren": "off"
+      "space-before-function-paren": "off",
+      "no-tabs": "off",
+      "indent": "off"
     },
     "overrides": [
       {
