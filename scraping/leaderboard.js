@@ -1,8 +1,6 @@
-import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js'
-import { URLS, scrape } from './utils.js'
+import { TEAMS, PRESIDENTS } from '../db/index.js'
 
-const getLeaderBoard = async () => {
-  const $ = await scrape(URLS.leaderBoard)
+export const getLeaderBoard = async ($) => {
   const $rows = $('table tbody tr')
 
   const LEADERBOARD_SELECTORS = {
@@ -46,7 +44,3 @@ const getLeaderBoard = async () => {
   })
   return leaderBoard
 }
-
-const leaderBoard = await getLeaderBoard()
-
-await writeDBFile('leaderBoard', leaderBoard)
