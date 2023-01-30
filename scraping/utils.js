@@ -3,6 +3,7 @@ import { logError, logSuccess, logInfo } from './log.js'
 import { writeDBFile } from '../db/index.js'
 import { getLeaderBoard } from './leaderboard.js'
 import { getMvpList } from './mvp.js'
+import { getTopScoresList } from './top_scorer.js'
 
 export const SCRAPINGS = {
   leaderboard: {
@@ -13,7 +14,17 @@ export const SCRAPINGS = {
     url: 'https://kingsleague.pro/estadisticas/mvp/',
     scraper: getMvpList,
   },
+  top_scorers: {
+    url: 'https://kingsleague.pro/estadisticas/goles/',
+    scraper: getTopScoresList,
+  },
 }
+
+export const cleanText = (text) =>
+  text
+    .replace(/\t|\n|\s:/g, '')
+    .replace(/.*:/g, ' ')
+    .trim()
 
 export async function scrape(url) {
   const res = await fetch(url)

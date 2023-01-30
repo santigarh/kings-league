@@ -17,3 +17,8 @@ export async function writeDBFile(filename, data) {
 
 export const TEAMS = await readDBFile('teams')
 export const PRESIDENTS = await readDBFile('presidents')
+
+export function getImageFromTeam({ name }) {
+  const { image } = TEAMS.find((team) => team.name === name)
+  return image
+}
