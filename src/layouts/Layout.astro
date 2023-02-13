@@ -1,7 +1,11 @@
 ---
 import Header from '../pages/components/Header.astro'
 
-const { title } = Astro.props
+const { title, description = 'Bienvenido a la Kings Legue' } = Astro.props
+
+const seoTitle = title
+  ? `${title} | Kings League Infojobs`
+  : 'Kings League Infojobs | Futbol Real'
 ---
 
 <!DOCTYPE html>
@@ -11,9 +15,10 @@ const { title } = Astro.props
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <title>{seoTitle}</title>
+    <meta name="description" content={description} />
   </head>
-  <body class="min-h-screen">
+  <body class="min-h-screen bg-orange-50/80">
     <Header />
     <slot />
   </body>
