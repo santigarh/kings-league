@@ -1,5 +1,6 @@
 ---
 import Header from '../pages/components/Header.astro'
+import Footer from '../pages/components/Footer.astro'
 
 const { title, description = 'Bienvenido a la Kings Legue' } = Astro.props
 
@@ -18,9 +19,10 @@ const seoTitle = title
     <title>{seoTitle}</title>
     <meta name="description" content={description} />
   </head>
-  <body class="min-h-screen bg-orange-50/80">
+  <body class="min-h-screen overflow-x-hidden">
     <Header />
     <slot />
+    <Footer />
   </body>
 </html>
 
