@@ -1,6 +1,6 @@
 import { TEAMS, PRESIDENTS } from '../db/index.js'
 
-export const getLeaderBoard = async ($) => {
+export const getLeaderboard = async ($) => {
   const $rows = $('table tbody tr')
 
   const LEADERBOARD_SELECTORS = {
@@ -26,7 +26,7 @@ export const getLeaderBoard = async ($) => {
 
   const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
 
-  let leaderBoard = []
+  let leaderboard = []
   $rows.each((_, el) => {
     const leaderBoardEntries = leaderBoardSelectorEntries.map(
       ([key, { selector, typeOf }]) => {
@@ -40,7 +40,7 @@ export const getLeaderBoard = async ($) => {
       Object.fromEntries(leaderBoardEntries)
     const team = getTeamFromName({ name: teamName })
 
-    leaderBoard.push({ ...leaderBoardForTeam, team })
+    leaderboard.push({ ...leaderBoardForTeam, team })
   })
-  return leaderBoard
+  return leaderboard
 }
