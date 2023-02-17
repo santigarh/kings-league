@@ -1,0 +1,28 @@
+---
+import TeamsSelectorCards from '../components/TeamsSelectorCards.astro'
+import Layout from '../../layouts/Layout.astro'
+import Container from '../components/Container.astro'
+import { getAllTeams } from '../../services/teams'
+const { name } = Astro.props
+export async function getStaticPaths() {
+  const teams = await getAllTeams()
+
+  return teams.map((team) => ({
+    params: { teamId: team.id },
+    props: { ...team },
+  }))
+}
+---
+
+<Layout title={name}>
+  <section class="bg-principal py-32 sm:px-2">
+    <Container />
+
+    <Container>
+      <h2 class="font-title text-5xl text-black text-center py-10">
+        Todos los equipos
+      </h2>
+      <TeamsSelectorCards />
+    </Container>
+  </section>
+</Layout>

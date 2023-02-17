@@ -1,0 +1,38 @@
+---
+import { getAllTeams } from '../../services/teams'
+
+const teams = await getAllTeams()
+---
+
+<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+  {
+    teams.map((team) => {
+      const { id, name, imageWhite, color } = team
+      return (
+        <article
+          class={` overflow-hidden col-span-1 aspect-video rounded bg-gradient-to-tr from-gray-600  to-gray-900  `}
+          style={`--tw-gradient-from: ${color}`}
+        >
+          <a
+            href={`/team/${id}`}
+            class="group transition-all hover:scale-110 flex gap-x-4 p-4 h-full items-center justify-center relative"
+            title={`Ver equipo ${name}`}
+          >
+            <img
+              alt={`Logo del equipo ${name}`}
+              class="brightness-[100] transtition-all group-hover:scale-110 group-hover:brightness-200 w-28 h-28 [backface-visibility:hidden] "
+              src={imageWhite}
+            />
+            <h3 class="z-10 font-black text-white text-xl sm:text-2xl">
+              {name}
+            </h3>
+            <div
+              class={`z-10 absolute inset-0 opacity-10  bg-center bg-[size:150%] group-hover:bg-[size:200%] transition`}
+              style={`background-image:url(${imageWhite})`}
+            />
+          </a>
+        </article>
+      )
+    })
+  }
+</section>

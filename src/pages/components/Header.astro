@@ -37,7 +37,7 @@ const teams = await response.json()
   <div class="flex flex-col h-full gap-4 w-full">
     <nav>
       <ul
-        class="flex justify-center items-center rounded-xl flex gap-x-4 [&>li>a:hover]:scale-150"
+        class="flex flex-wrap justify-center items-center rounded-xl flex gap-x-4 [&>li>a:hover]:scale-150"
       >
         {
           teams.map(({ id, image, name }, index) => (
@@ -51,7 +51,7 @@ const teams = await response.json()
                 >
                   <img
                     src={image}
-                    class="group-hover:drop-shadow-[0px_0px_8px_#fff] h-16 w-16 drop-shadow-[0px_0px_4px_#fff]"
+                    class="group-hover:drop-shadow-[0px_0px_8px_#fff] h-16 w-16 drop-shadow-[0px_0px_4px_#fff] aspect-square"
                     alt={`Escudo del equipo ${name}`}
                   />
                 </a>
