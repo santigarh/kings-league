@@ -2,205 +2,293 @@
   {
     "rank": 1,
     "playerName": "A. Bueno",
-    "gamesPlayed": 5,
-    "goals": 6,
+    "gamesPlayed": 7,
+    "goals": 9,
     "team": "1K FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
   },
   {
     "rank": 2,
-    "playerName": "Pelaz",
-    "gamesPlayed": 5,
-    "goals": 6,
-    "team": "Rayo de Barcelona",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg"
+    "playerName": "Ubón",
+    "gamesPlayed": 7,
+    "goals": 8,
+    "team": "El Barrio",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg"
   },
   {
     "rank": 3,
     "playerName": "Juanma Glez",
-    "gamesPlayed": 5,
-    "goals": 6,
+    "gamesPlayed": 7,
+    "goals": 8,
     "team": "Ultimate Móstoles",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
     "rank": 4,
-    "playerName": "Ubón",
-    "gamesPlayed": 5,
-    "goals": 5,
+    "playerName": "Pelaz",
+    "gamesPlayed": 7,
+    "goals": 7,
+    "team": "Rayo de Barcelona",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg"
+  },
+  {
+    "rank": 5,
+    "playerName": "Poch",
+    "gamesPlayed": 7,
+    "goals": 7,
+    "team": "XBUYER TEAM",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/xbuyer.svg"
+  },
+  {
+    "rank": 6,
+    "playerName": "Jacobo",
+    "gamesPlayed": 7,
+    "goals": 6,
     "team": "El Barrio",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "rank": 5,
+    "rank": 7,
+    "playerName": "Coro",
+    "gamesPlayed": 7,
+    "goals": 6,
+    "team": "Kunisports",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg"
+  },
+  {
+    "rank": 8,
+    "playerName": "G. Cichero",
+    "gamesPlayed": 7,
+    "goals": 6,
+    "team": "Porcinos FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
+  },
+  {
+    "rank": 9,
+    "playerName": "H. Fraile",
+    "gamesPlayed": 6,
+    "goals": 6,
+    "team": "Porcinos FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
+  },
+  {
+    "rank": 10,
+    "playerName": "R. Carbó",
+    "gamesPlayed": 7,
+    "goals": 6,
+    "team": "Saiyans FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "rank": 11,
     "playerName": "Arché",
-    "gamesPlayed": 5,
-    "goals": 5,
+    "gamesPlayed": 7,
+    "goals": 6,
     "team": "Ultimate Móstoles",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "rank": 6,
-    "playerName": "F. Hernández",
-    "gamesPlayed": 4,
-    "goals": 4,
-    "team": "Aniquiladores FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "rank": 7,
-    "playerName": "Jacobo",
-    "gamesPlayed": 5,
-    "goals": 4,
-    "team": "El Barrio",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg"
-  },
-  {
-    "rank": 8,
-    "playerName": "Soriano",
-    "gamesPlayed": 5,
-    "goals": 4,
-    "team": "Jijantes FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
-  },
-  {
-    "rank": 9,
-    "playerName": "E. Álvaro «Roble»",
-    "gamesPlayed": 5,
-    "goals": 4,
-    "team": "Los Troncos FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg"
-  },
-  {
-    "rank": 10,
-    "playerName": "J. Blanco",
-    "gamesPlayed": 5,
-    "goals": 4,
-    "team": "Porcinos FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
-  },
-  {
-    "rank": 11,
-    "playerName": "H. Fraile",
-    "gamesPlayed": 4,
-    "goals": 4,
-    "team": "Porcinos FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
-  },
-  {
     "rank": 12,
-    "playerName": "Poch",
-    "gamesPlayed": 5,
-    "goals": 4,
+    "playerName": "C. Castro",
+    "gamesPlayed": 7,
+    "goals": 6,
     "team": "XBUYER TEAM",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/xbuyer.svg"
   },
   {
     "rank": 13,
-    "playerName": "C. Castro",
-    "gamesPlayed": 5,
-    "goals": 4,
-    "team": "XBUYER TEAM",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/xbuyer.svg"
+    "playerName": "F. Hernández",
+    "gamesPlayed": 6,
+    "goals": 5,
+    "team": "Aniquiladores FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
   },
   {
     "rank": 14,
+    "playerName": "E. Álvaro",
+    "gamesPlayed": 7,
+    "goals": 5,
+    "team": "Los Troncos FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg"
+  },
+  {
+    "rank": 15,
+    "playerName": "Soriano",
+    "gamesPlayed": 6,
+    "goals": 4,
+    "team": "Jijantes FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
+  },
+  {
+    "rank": 16,
+    "playerName": "Carlitos",
+    "gamesPlayed": 7,
+    "goals": 4,
+    "team": "PIO FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
+  },
+  {
+    "rank": 17,
+    "playerName": "Lopo",
+    "gamesPlayed": 7,
+    "goals": 4,
+    "team": "PIO FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
+  },
+  {
+    "rank": 18,
+    "playerName": "J. Blanco",
+    "gamesPlayed": 7,
+    "goals": 4,
+    "team": "Porcinos FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
+  },
+  {
+    "rank": 19,
     "playerName": "Rivero",
-    "gamesPlayed": 5,
+    "gamesPlayed": 7,
     "goals": 3,
     "team": "1K FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 15,
+    "rank": 20,
     "playerName": "Gilles V.",
-    "gamesPlayed": 5,
+    "gamesPlayed": 7,
     "goals": 3,
     "team": "Aniquiladores FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 16,
-    "playerName": "Coro",
+    "rank": 21,
+    "playerName": "O. Boada",
     "gamesPlayed": 5,
+    "goals": 3,
+    "team": "El Barrio",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "rank": 22,
+    "playerName": "Torrentbó",
+    "gamesPlayed": 7,
     "goals": 3,
     "team": "Kunisports",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg"
   },
   {
-    "rank": 17,
-    "playerName": "S. Sánchez «Drago»",
+    "rank": 23,
+    "playerName": "Sergio",
     "gamesPlayed": 2,
     "goals": 3,
     "team": "Los Troncos FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "rank": 18,
-    "playerName": "X. Molas «Mimosa»",
+    "rank": 24,
+    "playerName": "Molas",
+    "gamesPlayed": 7,
+    "goals": 3,
+    "team": "Los Troncos FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg"
+  },
+  {
+    "rank": 25,
+    "playerName": "Joan Verdú",
     "gamesPlayed": 5,
     "goals": 3,
     "team": "Los Troncos FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "rank": 19,
-    "playerName": "J. Verdú «Gingko»",
-    "gamesPlayed": 5,
+    "rank": 26,
+    "playerName": "Pau Fer",
+    "gamesPlayed": 7,
     "goals": 3,
-    "team": "Los Troncos FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg"
+    "team": "PIO FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
   },
   {
-    "rank": 20,
-    "playerName": "G. Cichero",
-    "gamesPlayed": 5,
-    "goals": 3,
-    "team": "Porcinos FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
-  },
-  {
-    "rank": 21,
+    "rank": 27,
     "playerName": "Guillem ZZ",
-    "gamesPlayed": 5,
+    "gamesPlayed": 7,
     "goals": 3,
     "team": "Rayo de Barcelona",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "rank": 22,
-    "playerName": "R. Carbó",
-    "gamesPlayed": 5,
+    "rank": 28,
+    "playerName": "M. Reyes",
+    "gamesPlayed": 7,
     "goals": 3,
-    "team": "Saiyans FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg"
+    "team": "Rayo de Barcelona",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "rank": 23,
+    "rank": 29,
+    "playerName": "Aleix",
+    "gamesPlayed": 7,
+    "goals": 3,
+    "team": "Ultimate Móstoles",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles.svg"
+  },
+  {
+    "rank": 30,
+    "playerName": "Corvo",
+    "gamesPlayed": 2,
+    "goals": 3,
+    "team": "PIO FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
+  },
+  {
+    "rank": 31,
     "playerName": "Sorroche",
-    "gamesPlayed": 5,
+    "gamesPlayed": 7,
     "goals": 2,
     "team": "1K FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
   },
   {
-    "rank": 24,
-    "playerName": "Bernat",
-    "gamesPlayed": 5,
+    "rank": 32,
+    "playerName": "Pluvins",
+    "gamesPlayed": 7,
+    "goals": 2,
+    "team": "1K FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
+  },
+  {
+    "rank": 33,
+    "playerName": "Roger",
+    "gamesPlayed": 7,
     "goals": 2,
     "team": "Aniquiladores FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
   },
   {
-    "rank": 25,
-    "playerName": "O. Boada",
-    "gamesPlayed": 4,
+    "rank": 34,
+    "playerName": "Bernat",
+    "gamesPlayed": 7,
+    "goals": 2,
+    "team": "Aniquiladores FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
+  },
+  {
+    "rank": 35,
+    "playerName": "Beguer",
+    "gamesPlayed": 7,
     "goals": 2,
     "team": "El Barrio",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "rank": 26,
+    "rank": 36,
+    "playerName": "Ros",
+    "gamesPlayed": 7,
+    "goals": 2,
+    "team": "El Barrio",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "rank": 37,
     "playerName": "Alsina",
     "gamesPlayed": 5,
     "goals": 2,
@@ -208,195 +296,107 @@
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
   },
   {
-    "rank": 27,
-    "playerName": "Torrentbó",
-    "gamesPlayed": 5,
+    "rank": 38,
+    "playerName": "Ibai",
+    "gamesPlayed": 2,
+    "goals": 2,
+    "team": "Jijantes FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
+  },
+  {
+    "rank": 39,
+    "playerName": "Guerrero",
+    "gamesPlayed": 7,
     "goals": 2,
     "team": "Kunisports",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg"
   },
   {
-    "rank": 28,
-    "playerName": "Carlitos",
-    "gamesPlayed": 5,
+    "rank": 40,
+    "playerName": "Joan Inés",
+    "gamesPlayed": 7,
     "goals": 2,
-    "team": "PIO FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
+    "team": "Kunisports",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg"
   },
   {
-    "rank": 29,
-    "playerName": "Lopo",
-    "gamesPlayed": 5,
-    "goals": 2,
-    "team": "PIO FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
-  },
-  {
-    "rank": 30,
-    "playerName": "Pau Fer",
-    "gamesPlayed": 5,
-    "goals": 2,
-    "team": "PIO FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
-  },
-  {
-    "rank": 31,
+    "rank": 41,
     "playerName": "Cokita",
-    "gamesPlayed": 5,
+    "gamesPlayed": 7,
     "goals": 2,
     "team": "PIO FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg"
   },
   {
-    "rank": 32,
+    "rank": 42,
+    "playerName": "Lao",
+    "gamesPlayed": 7,
+    "goals": 2,
+    "team": "Porcinos FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
+  },
+  {
+    "rank": 43,
     "playerName": "Espinosa",
-    "gamesPlayed": 4,
+    "gamesPlayed": 5,
     "goals": 2,
     "team": "Porcinos FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "rank": 33,
+    "rank": 44,
     "playerName": "Kilian",
-    "gamesPlayed": 5,
+    "gamesPlayed": 7,
     "goals": 2,
     "team": "Porcinos FC",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "rank": 34,
+    "rank": 45,
     "playerName": "D. Vilà",
-    "gamesPlayed": 5,
+    "gamesPlayed": 6,
     "goals": 2,
     "team": "Rayo de Barcelona",
     "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "rank": 35,
-    "playerName": "Gio Ferinu",
-    "gamesPlayed": 3,
-    "goals": 2,
-    "team": "Saiyans FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg"
-  },
-  {
-    "rank": 36,
-    "playerName": "Feliu",
-    "gamesPlayed": 5,
-    "goals": 2,
-    "team": "Saiyans FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg"
-  },
-  {
-    "rank": 37,
-    "playerName": "Aleix",
-    "gamesPlayed": 5,
-    "goals": 2,
-    "team": "Ultimate Móstoles",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles.svg"
-  },
-  {
-    "rank": 38,
-    "playerName": "Román",
-    "gamesPlayed": 5,
-    "goals": 1,
-    "team": "1K FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "rank": 39,
-    "playerName": "Sauras",
-    "gamesPlayed": 5,
-    "goals": 1,
-    "team": "1K FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "rank": 40,
-    "playerName": "Pluvins",
-    "gamesPlayed": 5,
-    "goals": 1,
-    "team": "1K FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "rank": 41,
-    "playerName": "Marino",
-    "gamesPlayed": 5,
-    "goals": 1,
-    "team": "1K FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "rank": 42,
-    "playerName": "Nadir",
-    "gamesPlayed": 2,
-    "goals": 1,
-    "team": "Aniquiladores FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "rank": 43,
-    "playerName": "Goku",
-    "gamesPlayed": 1,
-    "goals": 1,
-    "team": "Aniquiladores FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "rank": 44,
-    "playerName": "Roger",
-    "gamesPlayed": 5,
-    "goals": 1,
-    "team": "Aniquiladores FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "rank": 45,
-    "playerName": "Daniel P.",
-    "gamesPlayed": 5,
-    "goals": 1,
-    "team": "Aniquiladores FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
     "rank": 46,
-    "playerName": "Ros",
+    "playerName": "Gio Ferinu",
     "gamesPlayed": 5,
-    "goals": 1,
-    "team": "El Barrio",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg"
+    "goals": 2,
+    "team": "Saiyans FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
     "rank": 47,
-    "playerName": "Ibai",
-    "gamesPlayed": 1,
-    "goals": 1,
-    "team": "Jijantes FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
+    "playerName": "Feliu",
+    "gamesPlayed": 7,
+    "goals": 2,
+    "team": "Saiyans FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
     "rank": 48,
-    "playerName": "Nando",
-    "gamesPlayed": 1,
+    "playerName": "Román",
+    "gamesPlayed": 7,
     "goals": 1,
-    "team": "Jijantes FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
+    "team": "1K FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
   },
   {
     "rank": 49,
-    "playerName": "Maca",
-    "gamesPlayed": 5,
+    "playerName": "Sauras",
+    "gamesPlayed": 7,
     "goals": 1,
-    "team": "Jijantes FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
+    "team": "1K FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
   },
   {
     "rank": 50,
-    "playerName": "Dorado",
-    "gamesPlayed": 5,
+    "playerName": "Marino",
+    "gamesPlayed": 7,
     "goals": 1,
-    "team": "Jijantes FC",
-    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg"
+    "team": "1K FC",
+    "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg"
   }
 ]

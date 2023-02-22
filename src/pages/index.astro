@@ -1,15 +1,30 @@
 ---
+import Table from './components/Table.astro'
 import Layout from '../layouts/Layout.astro'
 import Container from './components/Container.astro'
-import Table from './components/Table.astro'
+import TeamsSelectorCards from './components/TeamsSelectorCards.astro'
+
+const { hostname } = new URL(Astro.request.url)
 ---
 
 <Layout title="Kings League Infojobs">
   <main>
-    <section class="bg-[#60efff]">
+    <section class="bg-principal py-5 sm:py-20">
       <Container>
-        <div class="col-span-2">
-          <Table />
+        <div class="grid grid-cols-4 lg:grid-cols-8 gap-10 w-full px-4 md:px-8">
+          <div class="col-span-4 xl:col-span-3 flex flex-col gap-y-10">
+            <Table format="small" />
+          </div>
+          <div class="col-span-4 lg:col-span-4 xl:col-span-5 mt-[20px] lg:mt-0">
+            <div class="grid grid-cols-6 gap-y-10 gap-x-5 w-full">
+              <div class="col-span-6 xl:col-span-3"></div>
+
+              <div class="col-span-6 xl:col-span-3"></div>
+            </div>
+            <div class="my-10">
+              <TeamsSelectorCards small />
+            </div>
+          </div>
         </div>
       </Container>
     </section>

@@ -3,6 +3,8 @@ import TeamsSelectorCards from '../components/TeamsSelectorCards.astro'
 import Layout from '../../layouts/Layout.astro'
 import Container from '../components/Container.astro'
 import { getAllTeams } from '../../services/teams'
+import TeamPagePlayers from '../components/TeamPagePlayers.astro'
+import { findPresidentBy } from '../../services/presidents'
 
 const {
   id,
@@ -41,13 +43,22 @@ export async function getStaticPaths() {
     props: { ...team },
   }))
 }
+
+const playerEleven = players.filter((player) => player.role === 'jugador 11')
+const goalkeepers = players.filter((player) => player.role === 'Portero')
+const defenses = players.filter((player) => player.role === 'Defensa')
+const medium = players.filter((player) => player.role === 'Medio')
+const forward = players.filter((player) => player.role === 'Delantero')
+
+const president = await findPresidentBy({ id: presidentId })
 ---
 
 <Layout title={name}>
-  <section class="bg-principal py-32 sm:px-2">
+  <section class="bg-[#60efff] py-32 sm:px-2">
     <Container>
       <div
-        class={`relative py-10 px-2 md:px-20 md:py-10 shadow-xl sm:rounded -mt-10 z-10 mb-40 ${gradient}`}
+        class={`relative py-10 px-2 md:px-20 md:py-10 shadow-xl sm:rounded -mt-10 z-10 mb-40 bg-gradient-to-tr from-gray-600 to-gray-900`}
+        style={`--tw-gradient-from: ${color}`}
       >
         <section
           class="relative flex flex-col xl:flex-row items-center justify-between pb-10"
@@ -134,9 +145,20 @@ export async function getStaticPaths() {
             <div
               class="xl:absolute xl:-top-28 xl:right-0 text-center items-center flex-col"
             >
+              <img
+                class="w-[200px] xl:w-[391px] h-auto aspect-[400/562]"
+                src={president.image}
+                alt={president.name}
+                decoding="async"
+                fetchpriority="high"
+              />
               <div
                 class="bg-gradient-to-tr from-[#202020c9] via-[#36363685] to-[#cd55002a] shadow-xl rounded-xl p-2 -mt-10"
               >
+                <strong
+                  class="text-white text-xl font-bold font-title -mt-6 block"
+                  >{president.name}</strong
+                >
                 <h4
                   class="font-body uppercase rounded-full text-orange-500 font-semibold"
                 >
@@ -146,9 +168,17 @@ export async function getStaticPaths() {
             </div>
           </div>
         </section>
-
+        <TeamPagePlayers
+          players={[
+            ...playerEleven,
+            ...goalkeepers,
+            ...defenses,
+            ...medium,
+            ...forward,
+          ]}
+        />
         <div
-          class={'-z-10 absolute inset-0 opacity-5 bg-center bg-[size:250%] transition bg-inherit'}
+          class={'-z-10 absolute inset-0 opacity-5 bg-center bg-[size:90%] transition bg-no-repeat'}
           style={`background-image:url('${imageWhite}')`}
         >
         </div>
