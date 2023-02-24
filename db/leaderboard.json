@@ -188,7 +188,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/ibai-llanos.png",
         "teamId": "porcinos-fc"
       }
-    }
+    },
+    "rank": 1
   },
   {
     "victories": 6,
@@ -386,7 +387,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/thegrefg.png",
         "teamId": "saiyans-fc"
       }
-    }
+    },
+    "rank": 2
   },
   {
     "victories": 5,
@@ -584,7 +586,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/djmariio.png",
         "teamId": "ultimate-mostoles"
       }
-    }
+    },
+    "rank": 3
   },
   {
     "victories": 5,
@@ -782,7 +785,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/kun-aguero.png",
         "teamId": "kunisports"
       }
-    }
+    },
+    "rank": 4
   },
   {
     "victories": 3,
@@ -987,7 +991,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/adri-contreras.png",
         "teamId": "el-barrio"
       }
-    }
+    },
+    "rank": 5
   },
   {
     "victories": 3,
@@ -1192,7 +1197,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/iker-casillas.png",
         "teamId": "1k"
       }
-    }
+    },
+    "rank": 6
   },
   {
     "victories": 3,
@@ -1390,7 +1396,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/juan-guarnizo.png",
         "teamId": "aniquiladores-fc"
       }
-    }
+    },
+    "rank": 7
   },
   {
     "victories": 3,
@@ -1593,7 +1600,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/spursito.png",
         "teamId": "rayo-barcelona"
       }
-    }
+    },
+    "rank": 8
   },
   {
     "victories": 3,
@@ -1791,7 +1799,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/hnos-buyer.png",
         "teamId": "xbuyer-team"
       }
-    }
+    },
+    "rank": 9
   },
   {
     "victories": 3,
@@ -1992,7 +2001,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/perxitaa.png",
         "teamId": "los-troncos-fc"
       }
-    }
+    },
+    "rank": 10
   },
   {
     "victories": 2,
@@ -2185,7 +2195,8 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/rivers.png",
         "teamId": "pio-fc"
       }
-    }
+    },
+    "rank": 11
   },
   {
     "victories": 0,
@@ -2386,6 +2397,7 @@
         "image": "https://kinsgleague.santigarh-77.workers.dev/static/presidents/gerard-romero.png",
         "teamId": "jijantes-fc"
       }
-    }
+    },
+    "rank": 12
   }
 ]
