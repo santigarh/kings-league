@@ -2,7 +2,7 @@
 import TeamsSelectorCards from '../components/TeamsSelectorCards.astro'
 import Layout from '../../layouts/Layout.astro'
 import Container from '../components/Container.astro'
-import { getAllTeams } from '../../services/teams'
+import { getAllTeams, getPlayerTwelveFor } from '../../services/teams'
 import TeamPagePlayers from '../components/TeamPagePlayers.astro'
 import { findPresidentBy } from '../../services/presidents'
 import TeamStats from '../components/TeamStats.astro'
@@ -52,6 +52,8 @@ const medium = players.filter((player) => player.role === 'Medio')
 const forward = players.filter((player) => player.role === 'Delantero')
 
 const president = await findPresidentBy({ id: presidentId })
+
+const playerTwelve = await getPlayerTwelveFor({ teamId: id })
 ---
 
 <Layout title={name}>

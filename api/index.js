@@ -7,6 +7,7 @@ import teams from '../db/teams.json'
 import mvp from '../db/mvp.json'
 import topAssists from '../db/top_assists.json'
 import topScorers from '../db/top_scorers.json'
+import playersTwelve from '../db/players_twelve.json'
 
 const app = new Hono()
 app.use(cors({ origin: '*' }))
