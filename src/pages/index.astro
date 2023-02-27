@@ -1,5 +1,5 @@
 ---
-import Table from './components/Table.astro'
+import LeaderBoard from './components/LeaderBoard.astro'
 import Layout from '../layouts/Layout.astro'
 import Container from './components/Container.astro'
 import TeamsSelectorCards from './components/TeamsSelectorCards.astro'
@@ -13,7 +13,7 @@ const { hostname } = new URL(Astro.request.url)
       <Container>
         <div class="grid grid-cols-4 lg:grid-cols-8 gap-10 w-full px-4 md:px-8">
           <div class="col-span-4 xl:col-span-3 flex flex-col gap-y-10">
-            <Table format="small" />
+            <LeaderBoard format="small" />
           </div>
           <div class="col-span-4 lg:col-span-4 xl:col-span-5 mt-[20px] lg:mt-0">
             <div class="grid grid-cols-6 gap-y-10 gap-x-5 w-full">
