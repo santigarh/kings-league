@@ -3,6 +3,7 @@ import LeaderBoard from './components/LeaderBoard.astro'
 import Layout from '../layouts/Layout.astro'
 import Container from './components/Container.astro'
 import TeamsSelectorCards from './components/TeamsSelectorCards.astro'
+import PlayerPrizeCard from './components/PlayerPrizeCard.astro'
 
 const { hostname } = new URL(Astro.request.url)
 ---
@@ -17,9 +18,20 @@ const { hostname } = new URL(Astro.request.url)
           </div>
           <div class="col-span-4 lg:col-span-4 xl:col-span-5 mt-[20px] lg:mt-0">
             <div class="grid grid-cols-6 gap-y-10 gap-x-5 w-full">
-              <div class="col-span-6 xl:col-span-3"></div>
+              <div class="col-span-6">
+                <PlayerPrizeCard
+                  title="MVP"
+                  subtitle="Jornada 1"
+                  teamId="ultimate-mostoles"
+                />
+              </div>
 
-              <div class="col-span-6 xl:col-span-3"></div>
+              <div class="col-span-3">
+                <PlayerPrizeCard title="2" subtitle="Goles" />
+              </div>
+              <div class="col-span-3">
+                <PlayerPrizeCard title="3" subtitle="Asistencias" />
+              </div>
             </div>
             <div class="my-10">
               <TeamsSelectorCards small />
