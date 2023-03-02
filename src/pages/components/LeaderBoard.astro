@@ -1,12 +1,12 @@
 ---
-const response = await fetch(
-  'https://kinsgleague.santigarh-77.workers.dev/leaderboard'
-)
+import { getLeaderboard } from "../../services/leaderboard";
+
+
 
 const { format } = Astro.props
 
 const isSmall = format === 'small'
-const leaderboard = await response.json()
+const leaderboard = await getLeaderboard()
 ---
 
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
