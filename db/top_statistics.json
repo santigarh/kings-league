@@ -1,0 +1,240 @@
+{
+  "leaderboard": [
+    {
+      "victories": 6,
+      "loses": 2,
+      "scoredGoals": 27,
+      "concededGoals": 17,
+      "yellowCards": 10,
+      "redCards": 0,
+      "rank": 1,
+      "team": {
+        "id": "porcinos-fc",
+        "name": "Porcinos FC",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg",
+        "coach": "Juvenal Edjogo",
+        "shortName": "POR"
+      }
+    },
+    {
+      "victories": 6,
+      "loses": 2,
+      "scoredGoals": 16,
+      "concededGoals": 10,
+      "yellowCards": 6,
+      "redCards": 0,
+      "rank": 2,
+      "team": {
+        "id": "saiyans-fc",
+        "name": "Saiyans FC",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/saiyans-fc.svg",
+        "coach": "Daniel Romo",
+        "shortName": "SAI"
+      }
+    },
+    {
+      "victories": 6,
+      "loses": 2,
+      "scoredGoals": 24,
+      "concededGoals": 18,
+      "yellowCards": 6,
+      "redCards": 0,
+      "rank": 3,
+      "team": {
+        "id": "ultimate-mostoles",
+        "name": "Ultimate Móstoles",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles.svg",
+        "coach": "Nacho Castro",
+        "shortName": "ULT"
+      }
+    },
+    {
+      "victories": 6,
+      "loses": 2,
+      "scoredGoals": 18,
+      "concededGoals": 15,
+      "yellowCards": 3,
+      "redCards": 0,
+      "rank": 4,
+      "team": {
+        "id": "kunisports",
+        "name": "Kunisports",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg",
+        "coach": "Martín Posse",
+        "shortName": "KNS"
+      }
+    },
+    {
+      "victories": 4,
+      "loses": 4,
+      "scoredGoals": 26,
+      "concededGoals": 17,
+      "yellowCards": 9,
+      "redCards": 0,
+      "rank": 5,
+      "team": {
+        "id": "el-barrio",
+        "name": "El Barrio",
+        "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg",
+        "coach": "Juan Arroita",
+        "shortName": "RDB"
+      }
+    }
+  ],
+  "mvp": [
+    {
+      "rank": 1,
+      "playerName": "F. Hernández",
+      "gamesPlayed": 7,
+      "mvps": 4,
+      "team": "Aniquiladores FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/aniquiladores.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "aniquiladores-fc"
+    },
+    {
+      "rank": 2,
+      "playerName": "Ubón",
+      "gamesPlayed": 8,
+      "mvps": 3,
+      "team": "El Barrio",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "el-barrio"
+    },
+    {
+      "rank": 3,
+      "playerName": "Torrentbó",
+      "gamesPlayed": 8,
+      "mvps": 3,
+      "team": "Kunisports",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "kunisports"
+    },
+    {
+      "rank": 4,
+      "playerName": "A. Bueno",
+      "gamesPlayed": 8,
+      "mvps": 2,
+      "team": "1K FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "rank": 5,
+      "playerName": "Pol",
+      "gamesPlayed": 7,
+      "mvps": 2,
+      "team": "Jijantes FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/jijantes.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "jijantes-fc"
+    }
+  ],
+  "topScorers": [
+    {
+      "rank": 1,
+      "playerName": "Ubón",
+      "gamesPlayed": 8,
+      "goals": 10,
+      "team": "El Barrio",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/el-barrio.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "el-barrio"
+    },
+    {
+      "rank": 2,
+      "playerName": "A. Bueno",
+      "gamesPlayed": 8,
+      "goals": 10,
+      "team": "1K FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "rank": 3,
+      "playerName": "E. Álvaro",
+      "gamesPlayed": 8,
+      "goals": 8,
+      "team": "Los Troncos FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/los-troncos.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "los-troncos-fc"
+    },
+    {
+      "rank": 4,
+      "playerName": "Pelaz",
+      "gamesPlayed": 8,
+      "goals": 8,
+      "team": "Rayo de Barcelona",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "rayo-barcelona"
+    },
+    {
+      "rank": 5,
+      "playerName": "Juanma Glez.",
+      "gamesPlayed": 8,
+      "goals": 8,
+      "team": "Ultimate Móstoles",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/ultimate-mostoles.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "ultimate-mostoles"
+    }
+  ],
+  "topAssists": [
+    {
+      "playerName": "A. Bueno",
+      "gamesPlayed": 8,
+      "assists": 7,
+      "rank": 1,
+      "team": "1K FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "playerName": "Coro",
+      "gamesPlayed": 8,
+      "assists": 6,
+      "rank": 2,
+      "team": "Kunisports",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/kunisports.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "kunisports"
+    },
+    {
+      "playerName": "Cokita",
+      "gamesPlayed": 8,
+      "assists": 5,
+      "rank": 3,
+      "team": "PIO FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/pio.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "pio-fc"
+    },
+    {
+      "playerName": "Espinosa",
+      "gamesPlayed": 7,
+      "assists": 5,
+      "rank": 4,
+      "team": "Porcinos FC",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/porcinos-fc.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "porcinos-fc"
+    },
+    {
+      "playerName": "Franky P.",
+      "gamesPlayed": 8,
+      "assists": 5,
+      "rank": 5,
+      "team": "Rayo de Barcelona",
+      "image": "https://kinsgleague.santigarh-77.workers.dev/static/logos/rayo-barcelona.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "rayo-barcelona"
+    }
+  ]
+}
