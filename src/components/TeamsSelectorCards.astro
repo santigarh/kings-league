@@ -1,5 +1,6 @@
 ---
 import { getAllTeams } from '../services/teams'
+import CardBackgroundTeam from './CardBackgroundTeam.astro'
 
 const teams = await getAllTeams()
 ---
@@ -26,10 +27,7 @@ const teams = await getAllTeams()
             <h3 class="z-10 font-black text-white text-xl sm:text-2xl">
               {name}
             </h3>
-            <div
-              class={`z-10 absolute inset-0 opacity-10  bg-center bg-[size:150%] group-hover:bg-[size:200%] transition`}
-              style={`background-image:url(${imageWhite})`}
-            />
+            <CardBackgroundTeam image={imageWhite} />
           </a>
         </article>
       )

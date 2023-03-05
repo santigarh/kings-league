@@ -9,6 +9,7 @@ import topAssists from '../db/top_assists.json'
 import topScorers from '../db/top_scorers.json'
 import playersTwelve from '../db/players_twelve.json'
 import schedule from '../db/schedule.json'
+import topStatistics from '../db/top_statistics.json'
 
 const app = new Hono()
 app.use(cors({ origin: '*' }))
